@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+body{
+	font-family: Open sans;
+	font-size: 16px;
+}
+
+h1{
+	font-size: 77px;
+}
+
+h2{
+	font-size: 40px;
+}
+
+h3{
+	font-size: 25px;
+}
+
+h4, 
+h5{
+	font-size: 16px;
+}
+
+main {
+    margin-top: 70px;
+}
+
+nav {
+    border-bottom: 1px solid;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 8px 12px
+}
+
+ul {
+    list-style:none
+}
+
+
+
+/* SELETTORI AVANZAT */
+
+nav ul li{
+    display: inline-block;
+    
+}
+
+nav div ul li a{
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    color: black;
+    font-weight: bold;
+    padding: 0 18px;
+}
+
+
+
