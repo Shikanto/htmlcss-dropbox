@@ -41,7 +41,7 @@ nav {
     width: 100%;
     top: 0;
     left: 0;
-    padding: 8px 12px;
+    padding: 18px 12px;
     background-color: white;
     z-index: 92;
 }
@@ -98,9 +98,9 @@ nav div ul li a{
 }
 
 section.bg-lightblue{
-    margin-top: 51px;
+    padding-top: 50px;
 }
-
+ 
 div.hero-img img{
     width: 100%;
 }
