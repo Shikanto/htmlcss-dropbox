@@ -37,16 +37,46 @@ main {
 }
 
 nav {
-    border-bottom: 1px solid;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-    padding: 8px 12px
+    padding: 8px 12px;
+    background-color: white;
+    z-index: 92;
 }
 
 ul {
     list-style:none
+}
+
+.arrow-down{
+    display: inline-block;
+    font-size: 30px;
+}
+
+.hero-section{
+    position: relative;
+    top:80px
+}
+
+.hero-text{
+    width: 35%;
+    font-weight: bold;
+}
+
+.hero-img{
+    width: 65%;
+}
+
+.hero-text_img{
+padding-top: 40px;
+}
+
+.prova_gratuita{
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
 }
 
 
@@ -67,5 +97,15 @@ nav div ul li a{
     padding: 0 18px;
 }
 
+section.bg-lightblue{
+    margin-top: 51px;
+}
 
+div.hero-img img{
+    width: 100%;
+}
 
+.hero-text p{
+margin-bottom: 30px;
+
+}
