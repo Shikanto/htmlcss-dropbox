@@ -33,7 +33,7 @@ h5{
 }
 
 main {
-    margin-top: 70px;
+    margin-top: 200px;
 }
 
 nav {
@@ -70,7 +70,7 @@ ul {
 }
 
 .hero-text_img{
-padding-top: 40px;
+    padding-top: 40px;
 }
 
 .prova_gratuita{
@@ -79,8 +79,20 @@ padding-top: 40px;
     display: inline-block;
 }
 
+.input-invoice{
+    margin: 50px 0 40px;
+}
 
+.acquista-ora{
+    color: #0061ff;
+    font-weight: bold;
+}
 
+hr{
+    width: 20%;
+    color: #637381;
+    margin: 20px 0 30px;
+}
 /* SELETTORI AVANZAT */
 
 nav ul li{
@@ -109,3 +121,35 @@ div.hero-img img{
 margin-bottom: 30px;
 
 }
+
+.icon-plan-dropbox i{
+    padding: 18px 0 ;
+    /* font-weight: lighter; */
+
+}
+
+.type-plan-dropbox h4{
+    padding: 20px 0 10px;
+}
+
+.type-plan-dropbox .subtitle{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+div.type-plan-dropbox div a.btn.bg-blue{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    padding: 5px 18px;
+    margin: 30px 0 20px;
+}
+
+.details-plan-dropbox ul li{
+    padding: 15px 0;
+    display: inline-block;
+    position: relative;
+    right: 16px;
+}
+
+

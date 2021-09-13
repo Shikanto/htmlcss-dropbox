@@ -45,7 +45,8 @@
 .btn{
     color: white;
     padding: 6px 12px;
-
+    text-decoration: none;
+    font-size: 14px;
 }
 
 .bg-blue{
@@ -54,4 +55,30 @@
 
 .bg-lightblue{
     background-color: #b4d0e7;
+}
+
+.title-col{
+    border-bottom: 1px solid #637381;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.col_3_9_border{
+    border: 1px solid #637381;
+}
+
+.subtitle{
+    color: #637381;
+}
+
+.type-plan-dropbox{
+    padding: 30px;
+}
+
+.details-plan-dropbox{
+    padding: 0 30px 60px;
+}
+
+.text-blue{
+    color:#0061ff;
 }
