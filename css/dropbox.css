@@ -91,8 +91,21 @@ ul {
 hr{
     width: 20%;
     color: #637381;
-    margin: 20px 0 30px;
+    margin-top: 30px;
 }
+
+.enterprise{
+    padding:20px;
+}
+
+.partner-img{
+    width: 100%;
+}
+
+.partner-text{
+    padding: 40px;
+}
+
 
 /* SELETTORI AVANZAT */
 
@@ -118,14 +131,8 @@ div.hero-img img{
     width: 100%;
 }
 
-.hero-text p{
-margin-bottom: 30px;
-
-}
-
-.icon-plan-dropbox i{
-    padding: 18px 0 ;
-    /* font-weight: lighter; */
+.hero-text p, div.container .row.clearfix{
+margin-bottom: 40px;
 
 }
 
@@ -138,19 +145,27 @@ margin-bottom: 30px;
     margin-bottom: 30px;
 }
 
-div.type-plan-dropbox div a.btn.bg-blue{
-    width: 100%;
-    text-align: center;
-    display: inline-block;
-    padding: 5px 18px;
-    margin: 30px 0 20px;
-}
-
-.details-plan-dropbox ul li{
+.details-plan-dropbox ul li, .icon-plan-dropbox ul li{
     padding: 15px 0;
     display: inline-block;
     position: relative;
     right: 16px;
 }
 
+div.enterprise div h4{
+    padding: 15px 0 35px;
+}
 
+.btn.btn-large.bg-blue{
+    margin:0;
+}
+
+div.enterprise p{
+    font-size: 12px;
+
+}
+
+.partner-text p{
+    padding: 30px 0;
+
+}
