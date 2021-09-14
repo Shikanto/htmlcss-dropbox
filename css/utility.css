@@ -67,8 +67,25 @@
     border: 1px solid #637381;
 }
 
+.center-col{
+    padding: 0 10px;
+}
+
+.col-left{
+    padding-right: 20px;
+}
+
+.col-right{
+    padding-left: 20px;
+}
+
+.heigth-col{
+    min-height: 1200px;
+}
+
 .subtitle{
     color: #637381;
+    font-size: 14px;
 }
 
 .type-plan-dropbox{
