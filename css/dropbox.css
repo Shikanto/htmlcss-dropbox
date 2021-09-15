@@ -36,6 +36,11 @@ main {
     margin-top: 200px;
 }
 
+footer{
+    min-height: 300px;
+    padding: 50px 70px 30px;
+}
+
 nav {
     position: fixed;
     width: 100%;
@@ -90,7 +95,7 @@ ul {
 
 hr{
     width: 20%;
-    color: #637381;
+    color: #e5e5e7;
     margin-top: 30px;
 }
 
@@ -106,6 +111,9 @@ hr{
     padding: 40px;
 }
 
+footer{
+    margin-top: 70px;
+}
 
 /* SELETTORI AVANZAT */
 
@@ -132,8 +140,7 @@ div.hero-img img{
 }
 
 .hero-text p, div.container .row.clearfix{
-margin-bottom: 40px;
-
+    margin-bottom: 40px;
 }
 
 .type-plan-dropbox h4{
@@ -156,7 +163,7 @@ div.enterprise div h4{
     padding: 15px 0 35px;
 }
 
-.btn.btn-large.bg-blue{
+div.text-right .btn.btn-large.bg-blue{
     margin:0;
 }
 
@@ -172,4 +179,61 @@ div.enterprise p{
 
 .features-spacing p{
     margin-top: 20px;
+}
+
+section div.container a.text-blue{
+    display: inline-block;
+    margin: 20px 0 30px;
+}
+
+.container-squares img{
+    width: 100%;  
+    object-fit: cover;
+    display: inline-block;
+}
+
+.center-square img{
+    width:20%;
+}
+
+.center-square hr{
+    width:10%;
+}
+
+.center-square p:nth-child(3){
+    margin: 30px 0 50px;
+}
+
+section.bg-lightblue div.container.clearfix{
+    padding: 80px 0;
+}
+
+.question-section ul li{
+    padding: 20px 30px 20px 0;
+    font-weight: bold;
+    border-bottom: 1px solid #e5e5e7;
+}
+
+.question-section ul{
+    border-top: 1px solid #e5e5e7;
+    border-bottom: 1px solid #e5e5e7;
+    margin-left: -1px;
+}
+
+.question-section h3{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+footer div.container-large div{
+    width: 20%;
+    display: inline-block;
+}
+
+footer div.container-large div h4{
+    padding-bottom: 18px;
+}
+
+footer div.container-large div ul li{
+    padding: 5px 0;
 }
