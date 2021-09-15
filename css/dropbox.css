@@ -58,6 +58,9 @@ ul {
 .arrow-down{
     display: inline-block;
     font-size: 30px;
+    box-shadow: none;
+    transform: translate(0);
+    transition: all 1s infinite;
 }
 
 .hero-section{
@@ -78,7 +81,7 @@ ul {
     padding-top: 40px;
 }
 
-.prova_gratuita{
+.prova-gratuita{
     text-decoration: none;
     margin-bottom: 10px;
     display: inline-block;
@@ -139,6 +142,16 @@ footer{
     height: 300px;
     overflow: auto;
 }
+
+.accordion-item-icon{
+    transform: rotateZ(0deg);
+    transition: transform 0.4s;
+}
+
+.accordion-item:focus .accordion-item-icon{
+    transform: rotateZ(180deg);
+}
+
 
 /* SELETTORI AVANZAT */
 
@@ -252,14 +265,5 @@ footer div.container-large div ul li{
 .accordion-item h5{
     padding: 20px 0;
     width: 100%;
-}
-
-.accordion-item-icon{
-    transform: rotateZ(0deg);
-    transition: transform 0.4s;
-}
-
-.accordion-item:focus .accordion-item-icon{
-    transform: rotateZ(180deg);
 }
 

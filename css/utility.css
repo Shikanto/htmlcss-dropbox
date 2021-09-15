@@ -57,6 +57,45 @@
     font-size: 14px;
 }
 
+nav div ul a:not(.bg-blue):hover{
+    background-color: #d9d4cc;
+    text-decoration: underline;
+}
+
+a.btn.bg-blue:hover {
+    filter: opacity(50%);
+}
+
+a.btn.btn-white:hover {
+    text-decoration: underline;
+    background-color: #f5f5f5;
+}
+
+footer li:hover{
+    text-decoration: underline;
+}
+
+.hero-text i:hover{
+    font-size: 40px;
+    box-shadow: 20px 20px 50px 15px grey;
+    animation: scrolldown 0.5s infinite;
+    
+}
+
+@keyframes scrolldown {
+    0%{
+        transform: translateY(0)
+    }
+   
+    50%{
+        transform: translateY(40px)
+    }
+    100%{
+        transform: translateY(0)
+    }
+
+}
+
 .btn-white{
     background-color: white;
     border: 1px solid black;
@@ -101,7 +140,7 @@
 }
 
 .subtitle{
-    color: #e5e5e7;
+    color: #637381;
     font-size: 14px;
 }
 
