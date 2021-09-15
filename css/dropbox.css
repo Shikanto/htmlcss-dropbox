@@ -119,6 +119,27 @@ footer{
     padding-top: 40px;
 }
 
+.accordion-container{
+    border-top: 1px solid #e5e5e7;
+    border-bottom: 1px solid #e5e5e7;
+    margin-left: 0;
+}
+
+.accordion-item{
+    padding: 20px 30px 20px 0;
+    border-bottom: 1px solid #e5e5e7;
+}
+
+.accordion-item-content{
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.4s;
+}
+.accordion-item:focus .accordion-item-content{
+    height: 300px;
+    overflow: auto;
+}
+
 /* SELETTORI AVANZAT */
 
 nav ul li{
@@ -190,12 +211,6 @@ section div.container a.text-blue{
     margin: 20px 0 30px;
 }
 
-.container-squares img{
-    width: 100%;  
-    object-fit: cover;
-    display: inline-block;
-}
-
 .center-square img{
     width:20%;
 }
@@ -210,22 +225,6 @@ section div.container a.text-blue{
 
 section.bg-lightblue div.container.clearfix{
     padding: 80px 0;
-}
-
-.question-section ul li{
-    padding: 20px 30px 20px 0;
-    font-weight: bold;
-    border-bottom: 1px solid #e5e5e7;
-}
-
-.question-section ul li span i{
-    line-height: 22px;
-}
-
-.question-section ul{
-    border-top: 1px solid #e5e5e7;
-    border-bottom: 1px solid #e5e5e7;
-    margin-left: -1px;
 }
 
 .question-section h3{
@@ -249,3 +248,18 @@ footer div.container-large div h4{
 footer div.container-large div ul li{
     padding: 5px 0;
 }
+
+.accordion-item h5{
+    padding: 20px 0;
+    width: 100%;
+}
+
+.accordion-item-icon{
+    transform: rotateZ(0deg);
+    transition: transform 0.4s;
+}
+
+.accordion-item:focus .accordion-item-icon{
+    transform: rotateZ(180deg);
+}
+
