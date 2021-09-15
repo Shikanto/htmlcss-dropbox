@@ -38,7 +38,7 @@ main {
 
 footer{
     min-height: 300px;
-    padding: 70px 80px 30px;
+    padding: 70px 80px 0 80px;
 }
 
 nav {
@@ -234,7 +234,7 @@ section.bg-lightblue div.container.clearfix{
 }
 
 footer div.container-large{
-    padding-bottom: 60px;
+    padding-bottom: 40px;
 }
 
 footer div.container-large div{
